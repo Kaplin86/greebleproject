@@ -1,7 +1,7 @@
 extends TextureRect
 
-var IMAGE_X = 500
-var IMAGE_Y = 500
+var IMAGE_X = 316
+var IMAGE_Y = 316
 var IMAGE_SIZE = Vector2i(IMAGE_X,IMAGE_Y)
 
 @export_range(0.1,1,0.02) var wobble = 0.2
