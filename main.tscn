@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b1pk26hih1kqf"]
+
+[ext_resource type="Script" uid="uid://neavv2nonei0" path="res://generator.gd" id="1_ig7tw"]
+
+[node name="Node2D" type="Control" unique_id=1256472060]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=820717690]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 640.0
+offset_bottom = 640.0
+script = ExtResource("1_ig7tw")
